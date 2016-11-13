@@ -13,5 +13,5 @@ p = subprocess.Popen([r"C:/Program Files (x86)/VideoLAN/VLC/vlc.exe",r"C:\Users\
 
 p.wait()
 if(p.returncode == 0):
-	os.remove("friendsplaylist.m3u8")
+	os.remove("friendsplaylist.m3u8") #delete the generated file so that theres always a (new)random number of episodes to watch
 	
